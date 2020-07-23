@@ -43,15 +43,10 @@
                 class="header-adress-list-item-link link"
                 href="mailto:info@devstudio.com"
               >
-                <!--временно вставила иконку как img-->
-                <img
-                  class="header-adress-icon"
-                  src="./images/header-icons/envelope.svg"
-                  width="16"
-                  height="11"
-                  lang="en"
-                  alt="иконка письма"
-                />
+                  <svg class="header-adress-icon mail">
+                  <use href="./images/icons/sprite.svg#icon-envelope"></use>
+                </svg>
+             
                 info@devstudio.com</a
               >
             </li>
@@ -60,15 +55,10 @@
                 class="header-adress-list-item-link link"
                 href="tel:+380961111111"
               >
-                <!--временно вставила иконку как img-->
-                <img
-                  class="header-adress-icon"
-                  src="./images/header-icons/smartphone.svg"
-                  width="10"
-                  height="15"
-                  alt="иконка телефона"
-                />
-                +38 096 111 11 11</a
+              <svg class="header-adress-icon mob">
+                <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+                           +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -143,7 +133,7 @@
                     Веб-сайт
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Технокряк это современная площадка распространения
                   коронавируса. Компании используют эту платформу для цифрового
                   шпионажа и атак на защищённые сервера конкурентов.
@@ -173,7 +163,7 @@
                     Дизайн
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit
                   voluptas repudiandae culpa aperiam saepe ea, maiores obcaecati
                   autem nisi maxime deleniti totam voluptatum delectus alias?
@@ -204,7 +194,7 @@
                     Приложение
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Exercitationem aliquam expedita eaque eius cum maxime, rem
                   consequuntur nostrum ipsa voluptates explicabo ut illum
@@ -236,7 +226,7 @@
                   </p>
                 </div>
 
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Aliquid unde optio facere. Voluptate, quas optio consequuntur
                   temporibus perspiciatis, iure ab itaque pariatur reprehenderit
@@ -267,7 +257,7 @@
                     Приложение
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Excepturi voluptates blanditiis odio sint, in, quis saepe
                   beatae numquam quos nemo placeat perspiciatis esse nostrum,
@@ -298,7 +288,7 @@
                     Веб-сайт
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit, amet consectetur adipisicing elit.
                   Quidem rerum quod blanditiis aliquam, sapiente minima
                   asperiores deleniti voluptatibus doloribus nam voluptas quis
@@ -329,7 +319,7 @@
                     Дизайн
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Maxime aut ducimus, illum deserunt ut tenetur eligendi ullam
                   voluptates corporis ratione ad eum earum atque a consequuntur
@@ -360,7 +350,7 @@
                     Маркетинг
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Dolorum velit totam odio! Quos quidem, repellendus unde fuga
                   facilis illum officiis quaerat aut neque, autem quas
@@ -391,7 +381,7 @@
                     Приложение
                   </p>
                 </div>
-                <p class="projects-name-description">
+                <p class="projects-name-description" hidden>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Blanditiis assumenda fugit alias corporis quo, eligendi aut a!
                   Cum, quae voluptates, reprehenderit enim delectus, nobis
@@ -456,7 +446,7 @@
               >
                 <div
                   class="footer-social-list-item-link-block icon-insta"
-                ></div>
+                ><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -467,7 +457,7 @@
               >
                 <div
                   class="footer-social-list-item-link-block icon-twitter"
-                ></div>
+                ><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -476,7 +466,7 @@
                 href=""
                 aria-label="ссылка на фейсбук"
               >
-                <div class="footer-social-list-item-link-block icon-fb"></div>
+                <div class="footer-social-list-item-link-block icon-fb"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -485,7 +475,7 @@
                 href=""
                 aria-label="ссылка на линкт-ин"
               >
-                <div class="footer-social-list-item-link-block icon-ldn"></div>
+                <div class="footer-social-list-item-link-block icon-ldn"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
               </a>
             </li>
           </ul>
@@ -495,7 +485,9 @@
           <!--Здесь будет форма подписки-->
           <div class="form">
             <div class="form-input"></div>
-            <button class="modal-btn">Подписаться</button>
+            <button class="modal-btn">Подписаться
+              <svg class="footer-sign-modal-btn-send"><use href="./images/icons/sprite.svg#icon-send"></use></svg>
+            </button>
           </div>
         </div>
       </div>

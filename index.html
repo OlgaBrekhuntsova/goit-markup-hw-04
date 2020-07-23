@@ -44,15 +44,10 @@
                 class="header-adress-list-item-link link"
                 href="mailto:info@devstudio.com"
               >
-                <!--временно вставила иконку как img-->
-                <img
-                  class="header-adress-icon"
-                  src="./images/header-icons/envelope.svg"
-                  width="16"
-                  height="11"
-                  lang="en"
-                  alt="иконка письма"
-                />
+                  <svg class="header-adress-icon mail">
+                  <use href="./images/icons/sprite.svg#icon-envelope"></use>
+                </svg>
+             
                 info@devstudio.com</a
               >
             </li>
@@ -61,15 +56,10 @@
                 class="header-adress-list-item-link link"
                 href="tel:+380961111111"
               >
-                <!--временно вставила иконку как img-->
-                <img
-                  class="header-adress-icon"
-                  src="./images/header-icons/smartphone.svg"
-                  width="10"
-                  height="15"
-                  alt="иконка телефона"
-                />
-                +38 096 111 11 11</a
+              <svg class="header-adress-icon mob">
+                <use href="./images/icons/sprite.svg#icon-smartphone"></use>
+              </svg>
+                           +38 096 111 11 11</a
               >
             </li>
           </ul>
@@ -92,28 +82,36 @@
         <div class="container">
           <h2 class="title" hidden>Характерные черты</h2>
           <ul class="features-list list">
-            <li class="features-list-item icon-attention">
+            <li class="features-list-item">
+              <div class="features-list-item-block">
+              <svg class="features-list-item-block-icon"><use href="./images/icons/sprite.svg#icon-antenna"></use></svg></div>
               <h3 class="subtitle">Внимание к деталям</h3>
               <p class="description">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-list-item icon-intime">
+            <li class="features-list-item">
+              <div class="features-list-item-block">
+                <svg class="features-list-item-block-icon"><use href="./images/icons/sprite.svg#icon-clock"></use></svg></div>
               <h3 class="subtitle">Пунктуальность</h3>
               <p class="description">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-list-item icon-planning">
+            <li class="features-list-item">
+              <div class="features-list-item-block">
+                <svg class="features-list-item-block-icon"><use href="./images/icons/sprite.svg#icon-diagram"></use></svg></div>
               <h3 class="subtitle">Планирование</h3>
               <p class="description">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-list-item icon-tech">
+            <li class="features-list-item">
+              <div class="features-list-item-block">
+                <svg class="features-list-item-block-icon"><use href="./images/icons/sprite.svg#icon-astronaut"></use></svg></div>
               <h3 class="subtitle">Современные технологии</h3>
               <p class="description">
                 Значимость этих проблем настолько очевидна, что реализация
@@ -202,7 +200,7 @@
                     href=""
                     aria-label="ссылка на инстагам"
                   >
-                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-instagram"></use></svg></div>
+                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -211,7 +209,7 @@
                     href=""
                     aria-label="ссылка на твиттер"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-twitter"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -220,7 +218,7 @@
                     href=""
                     aria-label="ссылка на фейсбук"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-facebook"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -229,7 +227,7 @@
                     href=""
                     aria-label="ссылка на линкт-ин"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-linkedin"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
                   </a>
                 </li>
               </ul>
@@ -252,7 +250,7 @@
                     href=""
                     aria-label="ссылка на инстагам"
                   >
-                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-instagram"></use></svg></div>
+                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -261,7 +259,7 @@
                     href=""
                     aria-label="ссылка на твиттер"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-twitter"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -270,7 +268,7 @@
                     href=""
                     aria-label="ссылка на фейсбук"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-facebook"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -279,7 +277,7 @@
                     href=""
                     aria-label="ссылка на линкт-ин"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-linkedin"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
                   </a>
                 </li>
               </ul>
@@ -302,7 +300,7 @@
                     href=""
                     aria-label="ссылка на инстагам"
                   >
-                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-instagram"></use></svg></div>
+                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -311,7 +309,7 @@
                     href=""
                     aria-label="ссылка на твиттер"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-twitter"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -320,7 +318,7 @@
                     href=""
                     aria-label="ссылка на фейсбук"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-facebook"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -329,7 +327,7 @@
                     href=""
                     aria-label="ссылка на линкт-ин"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-linkedin"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
                   </a>
                 </li>
               </ul>
@@ -352,7 +350,7 @@
                     href=""
                     aria-label="ссылка на инстагам"
                   >
-                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-instagram"></use></svg></div>
+                    <div class="social-list-link-block"> <svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -361,7 +359,7 @@
                     href=""
                     aria-label="ссылка на твиттер"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-twitter"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -370,7 +368,7 @@
                     href=""
                     aria-label="ссылка на фейсбук"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-facebook"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
                   </a>
                 </li>
                 <li class="team-list-item-social-list-item">
@@ -379,7 +377,7 @@
                     href=""
                     aria-label="ссылка на линкт-ин"
                   >
-                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-linkedin"></use></svg></div>
+                    <div class="social-list-link-block"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
                   </a>
                 </li>
               </ul>
@@ -398,7 +396,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт компании я энд ко"
-                ><div class="customers-list-item-link-block"></div>
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-1"><use href="./images/icons/sprite.svg#icon-customer-logo-1"></use></svg></div>
               </a>
             </li>
             <li class="customers-list-item">
@@ -407,7 +405,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт тэглайн хиэ кампани"
-                ><div class="customers-list-item-link-block"></div
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-2"><use href="./images/icons/sprite.svg#icon-customer-logo-2"></use></svg></div
               ></a>
             </li>
             <li class="customers-list-item">
@@ -416,7 +414,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт кампани"
-                ><div class="customers-list-item-link-block"></div
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-3"><use href="./images/icons/sprite.svg#icon-customer-logo-3"></use></svg></div
               ></a>
             </li>
             <li class="customers-list-item">
@@ -425,7 +423,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт компании фостер питерс"
-                ><div class="customers-list-item-link-block"></div
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-4"><use href="./images/icons/sprite.svg#icon-customer-logo-4"></use></svg></div
               ></a>
             </li>
             <li class="customers-list-item">
@@ -434,7 +432,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт компании брэнд"
-                ><div class="customers-list-item-link-block"></div
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-5"><use href="./images/icons/sprite.svg#icon-customer-logo-5"></use></svg></div
               ></a>
             </li>
             <li class="customers-list-item">
@@ -443,7 +441,7 @@
                 href=""
                 target="_blank"
                 aria-label="переход на сайт тэг лайн кампани"
-                ><div class="customers-list-item-link-block"></div
+                ><div class="customers-list-item-link-block"><svg class="customers-list-item-link-block-icon logo-6"><use href="./images/icons/sprite.svg#icon-customer-logo-6"></use></svg></div
               ></a>
             </li>
           </ul>
@@ -503,7 +501,7 @@
               >
                 <div
                   class="footer-social-list-item-link-block icon-insta"
-                ><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-instagram"></use></svg></div>
+                ><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-instagram"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -514,7 +512,7 @@
               >
                 <div
                   class="footer-social-list-item-link-block icon-twitter"
-                ><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-twitter"></use></svg></div>
+                ><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-twitter"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -523,7 +521,7 @@
                 href=""
                 aria-label="ссылка на фейсбук"
               >
-                <div class="footer-social-list-item-link-block icon-fb"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-facebook"></use></svg></div>
+                <div class="footer-social-list-item-link-block icon-fb"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-facebook"></use></svg></div>
               </a>
             </li>
             <li class="footer-social-list-item">
@@ -532,7 +530,7 @@
                 href=""
                 aria-label="ссылка на линкт-ин"
               >
-                <div class="footer-social-list-item-link-block icon-ldn"><svg class="social-list-link-icons"> <use href="../images/icons/sprite.svg#icon-linkedin"></use></svg></div>
+                <div class="footer-social-list-item-link-block icon-ldn"><svg class="social-list-link-icons"> <use href="./images/icons/sprite.svg#icon-linkedin"></use></svg></div>
               </a>
             </li>
           </ul>
@@ -543,7 +541,7 @@
           <div class="form">
             <div class="form-input"></div>
             <button class="modal-btn">Подписаться
-              <svg class="footer-sign-modal-btn-send"><use href="../images/icons/sprite.svg#icon-send"></use></svg>
+              <svg class="footer-sign-modal-btn-send"><use href="./images/icons/sprite.svg#icon-send"></use></svg>
             </button>
           </div>
         </div>
