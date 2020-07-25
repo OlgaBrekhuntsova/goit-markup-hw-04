@@ -454,10 +454,9 @@ background: #188CE8;
   padding-bottom: 60px;
   display: flex;
   justify-content: space-between;
-  align-content: center;
+  align-items: baseline;
 }
 .footer .title {
-  margin-top: 12px;
   margin-bottom: 20px;
   text-align: left;
   font-weight: 700;
@@ -555,8 +554,6 @@ background: #188CE8;
   height: 20px;
   fill: var(--title-dark-theme-color);
   }
-  
-
 
 .footer .form {
   display: flex;
@@ -591,7 +588,7 @@ background: #188CE8;
   margin-left: 10px;
 }*/
 /*PORTFOLIO*/
-.header {
+.portfolio-header {
   border-bottom: 1px solid #ececec;
 }
 .portfolio h2 {
